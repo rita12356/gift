@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  user-select: none;
+}
+
+.text{
+  display: none;
+}
+
+button:hover{
+  background-color: rgb(180, 208, 244);
+}
+
+button:active{
+  background-color: rgb(176, 198, 248);
+}
+.container {
+  max-width: 600px;
+}
