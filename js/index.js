@@ -34,8 +34,7 @@ function onCardClick(evt) {
             alerts.innerHTML = `Это не то, что я хочу :( Попробуй ещё раз.`;
             if(card.classList.contains(`card2`)) {
              card.classList.add(`animate__flip`);
-             
-             
+            
             
             } else{
              card.classList.add(`animate__zoomOut`);
