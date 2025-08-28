@@ -31,10 +31,13 @@ function onCardClick(evt) {
       
         counter--;
         if(counter == 2) {
-            alerts.innerHTML = `Это не то, что я хочу :( Попробуй ещё раз.`;
+            alerts.innerHTML = `Теперь ты знаешь, что я хочу в подарок :).`;
             if(card.classList.contains(`card2`)) {
              card.classList.add(`animate__flip`);
-            
+             card1.classList.add(`animate__zoomOut`);
+             card2.classList.add(`animate__zoomOut`);
+             card3.classList.add(`animate__zoomOut`);
+             card4.classList.add(`animate__zoomOut`);
             
             } else{
              card.classList.add(`animate__zoomOut`);
@@ -42,7 +45,7 @@ function onCardClick(evt) {
              
             }
          } else if(counter == 1) {
-               alerts.innerHTML = `Теперь ты знаешь, что я хочу в подарок :).`;
+               alerts.innerHTML = `Это не то, что я хочу :( Попробуй ещё раз.`;
             if(card.classList.contains(`card2`)) {
              card.classList.add(`animate__flip`);
              card1.classList.add(`animate__zoomOut`);
